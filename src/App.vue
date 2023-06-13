@@ -1,21 +1,23 @@
 <script setup>
   import NavbarComponent from "./components/icons/NavbarComponent.vue"
   import ImagePhoneComponent from "./components/icons/ImagePhoneComponent.vue"
+  import ContainerMiddle from "./components/icons/ContainerMiddle.vue";
   import FooterComponent from "./components/icons/FooterComponent.vue"
+
 </script>
 
 <template>
   <NavbarComponent />
   <ImagePhoneComponent />
+  <ContainerMiddle />
   <FooterComponent />
-
   <main>
     
 
-    <section class="container-middle">
+    <!-- <section class="container-middle">
       <div class="container-icons-middle">
         <div class="container-icons-middle__icon">
-          <img class="container-icons-middle__img" src="images/usersIconFix.png" alt="Users icon" />
+          <img class="container-icons-middle__img" src="src/assets/" alt="Users icon" />
           <p class="icons-middle__text">Identify Goals</p>
         </div>
 
@@ -39,7 +41,7 @@
           <p class="icons-middle__text">Get Things Done</p>
         </div>
       </div>
-    </section>
+    </section> -->
     <section class="section-organize">
       <div class="section-organize__img">
         <img id="organize-image" src="images/description-1-app.png" alt="imagen fondo 1" />
@@ -385,7 +387,7 @@ Correccion icono apple boton download
     transition: all 0.2s;
 } */ 
 
-.container-icons-middle {
+/*.container-icons-middle {
     display: flex;
     justify-content: space-evenly;
 }
@@ -417,7 +419,7 @@ Correccion icono apple boton download
     font-weight: 700;
     text-align: center;
     margin-top: 50px;
-}
+}*/
 
 /* Seccion organize */
 
