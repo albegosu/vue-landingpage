@@ -1,5 +1,6 @@
 <script setup>
   import NavbarComponent from "./components/icons/NavbarComponent.vue"
+  import ContainerMiddle from "./components/icons/ContainerMiddle.vue";
 </script>
 
 <template>
@@ -49,9 +50,10 @@
     </div>
 
     <section class="container-middle">
+      <ContainerMiddle />
       <div class="container-icons-middle">
         <div class="container-icons-middle__icon">
-          <img class="container-icons-middle__img" src="images/usersIconFix.png" alt="Users icon" />
+          <img class="container-icons-middle__img" src="src/assets/" alt="Users icon" />
           <p class="icons-middle__text">Identify Goals</p>
         </div>
 
