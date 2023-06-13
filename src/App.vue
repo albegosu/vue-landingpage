@@ -1,15 +1,16 @@
 <script setup>
   import NavbarComponent from "./components/icons/NavbarComponent.vue"
   import ImagePhoneComponent from "./components/icons/ImagePhoneComponent.vue"
-  import ContainerMiddle from "./components/icons/ContainerMiddle.vue";
+  import ContainerMiddle from "./components/icons/ContainerMiddle.vue"
   import FooterComponent from "./components/icons/FooterComponent.vue"
-
+  import Organize from "./components/icons/Organize.vue"
 </script>
 
 <template>
   <NavbarComponent />
   <ImagePhoneComponent />
   <ContainerMiddle />
+  <Organize />
   <FooterComponent />
   <main>
     
@@ -42,7 +43,7 @@
         </div>
       </div>
     </section> -->
-    <section class="section-organize">
+    <!-- <section class="section-organize">
       <div class="section-organize__img">
         <img id="organize-image" src="images/description-1-app.png" alt="imagen fondo 1" />
       </div>
@@ -61,7 +62,7 @@
         </ul>
         <button class="lightbox-button">LIGHTBOX</button>
       </div>
-    </section>
+    </section> -->
 
     <section class="section-calendar">
       <div class="section-calendar__left">
@@ -423,7 +424,7 @@ Correccion icono apple boton download
 
 /* Seccion organize */
 
-.section-organize {
+/* .section-organize {
     display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
@@ -475,7 +476,7 @@ Correccion icono apple boton download
     color: #ff556e;
     border: 2px solid #ff556e;
     transition: all 0.2s;
-}
+} */
 
 /* section calendar */
 .section-calendar {
