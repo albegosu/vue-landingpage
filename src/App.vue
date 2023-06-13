@@ -4,6 +4,7 @@
   import ContainerMiddle from "./components/icons/ContainerMiddle.vue"
   import FooterComponent from "./components/icons/FooterComponent.vue"
   import Organize from "./components/icons/Organize.vue"
+  import User from "./components/icons/User.vue"
 </script>
 
 <template>
@@ -11,6 +12,7 @@
   <ImagePhoneComponent />
   <ContainerMiddle />
   <Organize />
+  <User />
   <FooterComponent />
   <main>
     
@@ -155,10 +157,8 @@
 
     </section>
 
-    <section class="section-user">
+    <!-- <section class="section-user">
       <h2>User Testimonials</h2>
-
-      <!--Iconos Estrellas-->
 
       <div class="section-user__rick">
         <img class="section-user__rick__img" src="images/iconoEstrellasFix.png" alt="icono valoraciones" />
@@ -221,7 +221,7 @@
         </p>
         <p class="section-user__jones__p"><strong>Jones Smith - Developer</strong></p>
       </div>
-    </section>
+    </section> -->
 
     <section class="section-numbers">
       <div class="section-numbers__container section-numbers__users">
@@ -600,7 +600,7 @@ Correccion icono apple boton download
     transition: all 0.2s;
 }
 
-.section-user {
+/* .section-user {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #f7fafd;
@@ -758,7 +758,7 @@ margin: 0 auto;
 
 .section-user__jones__img {
     width: 150px;
-}
+} */
 
 .section-numbers {
     display: flex;
