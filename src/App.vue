@@ -1,6 +1,9 @@
 <script setup>
   import NavbarComponent from "./components/icons/NavbarComponent.vue"
   import ImagePhoneComponent from "./components/icons/ImagePhoneComponent.vue"
+  import ContainerMiddle from "./components/icons/ContainerMiddle.vue"
+  import Organize from "./components/icons/Organize.vue"
+  import Numbers from "./components/icons/Numbers.vue"
   import FooterComponent from "./components/icons/FooterComponent.vue"
   import ButtonComponent from "./components/icons/ButtonComponent.vue"
 </script>
@@ -8,16 +11,19 @@
 <template>
   <NavbarComponent />
   <ImagePhoneComponent />
+  <ContainerMiddle />
+  <Organize />
+  <Numbers />
   <ButtonComponent />
   <FooterComponent />
 
   <main>
     
 
-    <section class="container-middle">
+    <!-- <section class="container-middle">
       <div class="container-icons-middle">
         <div class="container-icons-middle__icon">
-          <img class="container-icons-middle__img" src="images/usersIconFix.png" alt="Users icon" />
+          <img class="container-icons-middle__img" src="src/assets/" alt="Users icon" />
           <p class="icons-middle__text">Identify Goals</p>
         </div>
 
@@ -41,8 +47,8 @@
           <p class="icons-middle__text">Get Things Done</p>
         </div>
       </div>
-    </section>
-    <section class="section-organize">
+    </section> -->
+    <!-- <section class="section-organize">
       <div class="section-organize__img">
         <img id="organize-image" src="images/description-1-app.png" alt="imagen fondo 1" />
       </div>
@@ -61,7 +67,7 @@
         </ul>
         <button class="lightbox-button">LIGHTBOX</button>
       </div>
-    </section>
+    </section> -->
 
     <section class="section-calendar">
       <div class="section-calendar__left">
@@ -222,7 +228,7 @@
       </div>
     </section>
 
-    <section class="section-numbers">
+    <!--<section class="section-numbers">
       <div class="section-numbers__container section-numbers__users">
         <img src="images/usersIconFix.png" alt="users icon" />
         <p class="section-numbers__container__number">231</p>
@@ -252,7 +258,7 @@
         <p class="section-numbers__container__number">211</p>
         <p>Orders Received</p>
       </div>
-    </section>
+    </section>-->
 
   </main>
 
@@ -348,7 +354,7 @@ Correccion icono apple boton download
     transition: all 0.2s;
 } */ 
 
-.container-icons-middle {
+/*.container-icons-middle {
     display: flex;
     justify-content: space-evenly;
 }
@@ -380,11 +386,11 @@ Correccion icono apple boton download
     font-weight: 700;
     text-align: center;
     margin-top: 50px;
-}
+}*/
 
 /* Seccion organize */
 
-.section-organize {
+/* .section-organize {
     display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
@@ -436,7 +442,7 @@ Correccion icono apple boton download
     color: #ff556e;
     border: 2px solid #ff556e;
     transition: all 0.2s;
-}
+} */
 
 /* section calendar */
 .section-calendar {
@@ -720,7 +726,7 @@ margin: 0 auto;
     width: 150px;
 }
 
-.section-numbers {
+/*.section-numbers {
     display: flex;
     justify-content: center;
     background-color: #e8eff6;
@@ -743,7 +749,7 @@ margin: 0 auto;
     font-size: 2rem;
     font-weight: 700;
     opacity: 0.8;
-}
+}*/
 
 
 </style>

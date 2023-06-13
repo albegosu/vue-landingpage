@@ -1,38 +1,85 @@
 <template>
   <header>
     <div>
-      <a href="#"><img id="top-icon" src="images/logo.svg" alt="top left icon" /></a>
+      <a href="#">
+        <img src="src/assets/logo.svg" id="top-icon" alt="Logo">
+      </a>
     </div>
-    <div>
-      <nav>
-        <ul class="top-menu">
-          <li><a href="#">Description</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Screens</a></li>
-          <li class="dropdown">
-            <a href="#">Extra</a>
-            <div class="dropdown-content">
-              <a href="#">Article Details</a>
-              <a href="#">Terms Conditions</a>
-              <a href="#">Privacy Policy</a>
-            </div>
-          </li>
-          <li>
-            <a href="https://factoriaf5.org/"><button class="button-download__top">Download</button></a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <nav>
+      <ul class="top-menu">
+        <li><a href="#">Description</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Screens</a></li>
+        <li class="dropdown">
+          <a href="#">Extra</a>
+          <div class="dropdown-content">
+            <a href="#">Article Details</a>
+            <a href="#">Terms Conditions</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </li>
+        <li>
+          <a href="https://factoriaf5.org/"><button class="button-download__top">Download</button></a>
+        </li>
+      </ul>
+    </nav>
   </header>
 </template>
 
 <style scoped>
-#top-icon {
-    width: 6.688rem;
-    margin-left: 100px; 
+header {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem;
+    gap: auto;
 }
 nav {
-    width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+#top-icon {
+  width: 5rem;
+}
+
+li:nth-child(1) {
+  display: none;
+}
+
+li:nth-child(2){
+  display: none;
+}
+
+li:nth-child(3){
+  display: none;
+}
+
+@media (min-width: 800px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem;
+    gap: auto;
+  }
+  #top-icon {
+      width: 6.7rem;
+  }
+  nav {
+      width: 70%;
+  }
+  li:nth-child(1) {
+  display: block;
+}
+
+li:nth-child(2){
+  display: block;
+}
+
+li:nth-child(3){
+  display: block;
+}
 }
 .top-menu li {
     list-style: none;
@@ -41,12 +88,10 @@ nav {
     font-family: 'Open sans', sans-serif;
     font-weight: 700;
 }
-
 a {
     text-decoration: none;
     color: #000000;
 }
-
 .button-download__top {
     -webkit-border-radius: 28px;
     -moz-border-radius: 28px;
@@ -60,25 +105,20 @@ a {
     background-color: #fff;
     font-weight: 700;
 }
-
 .button-download__top:hover {
     background-color: #ff556e;
     color: white;
     transition: all 0.4s;
 }
-
 .top-menu {
     display: flex;
     justify-content: flex-end;
     align-items: baseline;
 }
-
-/*   desde aqui             */
 .dropdown {
     display: inline-block;
     position: relative;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -87,25 +127,21 @@ a {
     padding: 5px;
     z-index: 5;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
     white-space: nowrap;
 }
-
 .dropdown-content a {
     display: block;
     color: #000000;
     padding: 5px;
     text-decoration: none;
 }
-
 .dropdown-content a:hover {
     color: #ff556e;
 }
-/*     hasta aqui        */
-
 .top-menu a:hover{
     color: #ff556e;
 }
+
 </style>
