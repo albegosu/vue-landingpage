@@ -34,7 +34,6 @@
 nav {
     width: 70%;
 }
-
 .top-menu li {
     list-style: none;
     margin: 0 10px;
