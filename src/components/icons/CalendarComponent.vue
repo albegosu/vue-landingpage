@@ -75,7 +75,7 @@
     </section>
 </template>
 
-<style>
+<style scoped>
 /* section calendar */
 .section-calendar {
     display: flex;
