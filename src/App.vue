@@ -5,6 +5,7 @@
   import Organize from "./components/icons/Organize.vue"
   import Numbers from "./components/icons/Numbers.vue"
   import FooterComponent from "./components/icons/FooterComponent.vue"
+  import CalendarComponent from "./components/icons/CalendarComponent.vue"
   import ButtonComponent from "./components/icons/ButtonComponent.vue"
 </script>
 
@@ -14,6 +15,7 @@
   <ContainerMiddle />
   <Organize />
   <Numbers />
+  <CalendarComponent />
   <ButtonComponent />
   <FooterComponent />
 
@@ -69,96 +71,6 @@
       </div>
     </section> -->
 
-    <section class="section-calendar">
-      <div class="section-calendar__left">
-        
-          <div class="section-calendar__container">
-            <button class="section-calendar__button button-schedule">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                class="section-calendar__image button-schedule icon icon-tabler icon-tabler-clock-hour-4" width="44"
-                height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-                <path d="M12 12l3 2" />
-                <path d="M12 7v5" />
-              </svg>
-              <p class="section-calendar__p">Schedule</p>
-            </button>
-            <button class="section-calendar__button">
-              <svg xmlns="http://www.w3.org/2000/svg" class="section-calendar__image icon icon-tabler icon-tabler-list"
-                width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M9 6l11 0" />
-                <path d="M9 12l11 0" />
-                <path d="M9 18l11 0" />
-                <path d="M5 6l0 .01" />
-                <path d="M5 12l0 .01" />
-                <path d="M5 18l0 .01" />
-              </svg>
-              <p class="section-calendar__p">Tracking</p>
-            </button>
-            <button class="section-calendar__button">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                class="section-calendar__image icon icon-tabler icon-tabler-calendar-event" width="44" height="44"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
-                <path d="M16 3l0 4" />
-                <path d="M8 3l0 4" />
-                <path d="M4 11l16 0" />
-                <path d="M8 15h2v2h-2z" />
-              </svg>
-              <p class="section-calendar__p">Organize</p>
-            </button>
-          </div>
-
-          <div>
-            <p>
-              <strong>Schedule tasks to keep</strong> to keep track of their
-              completion. Sync provides multiple scheduling options including
-              alarms and reminders
-            </p>
-
-            <div>
-
-              <div class="section-calendar__checklist">
-                <img class="check-icon" src="images/checkIcon.png" alt="icono check" />
-                <p>
-                  You can always add new tasks or change the settings of existing
-                  ones in your calendar view or the app control panel
-                </p>
-              </div>
-
-              <div class="section-calendar__checklist">
-                <img class="check-icon" src="images/checkIcon.png" alt="icono check" />
-                <p>
-                  It's easy to stay focused on your most important daily activities
-                  that get you closer to meeting your goals
-                </p>
-              </div>
-              <div class="section-calendar__checklist">
-                <img class="check-icon" src="images/checkIcon.png" alt="icono check" />
-                <p>
-                  Use phone reminders to free up your long term memory wich will
-                  reduce stress and make you more productive
-                </p>
-              </div>
-            </div>
-
-            <div class="container-buttons__privacy">
-              <button class="button-terms">TERMS</button>
-              <button class="button-privacy">PRIVACY</button>
-            </div>
-          </div>
-        </div>
-        
-          <img id="calendar-image" src="images/description-2-app.png" alt="imagen fondo 2" />
-        
-
-    </section>
 
     <section class="section-user">
       <h2>User Testimonials</h2>
@@ -751,5 +663,9 @@ margin: 0 auto;
     opacity: 0.8;
 }*/
 
+.section-bottom {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 </style>
