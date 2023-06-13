@@ -2,8 +2,9 @@
   import NavbarComponent from "./components/icons/NavbarComponent.vue"
   import ImagePhoneComponent from "./components/icons/ImagePhoneComponent.vue"
   import ContainerMiddle from "./components/icons/ContainerMiddle.vue"
-  import FooterComponent from "./components/icons/FooterComponent.vue"
   import Organize from "./components/icons/Organize.vue"
+  import Numbers from "./components/icons/Numbers.vue"
+  import FooterComponent from "./components/icons/FooterComponent.vue"
   import CalendarComponent from "./components/icons/CalendarComponent.vue"
 </script>
 
@@ -12,8 +13,10 @@
   <ImagePhoneComponent />
   <ContainerMiddle />
   <Organize />
+  <Numbers />
   <CalendarComponent />
   <FooterComponent />
+
   <main>
     
 
@@ -135,7 +138,7 @@
       </div>
     </section>
 
-    <section class="section-numbers">
+    <!--<section class="section-numbers">
       <div class="section-numbers__container section-numbers__users">
         <img src="images/usersIconFix.png" alt="users icon" />
         <p class="section-numbers__container__number">231</p>
@@ -165,7 +168,7 @@
         <p class="section-numbers__container__number">211</p>
         <p>Orders Received</p>
       </div>
-    </section>
+    </section>-->
 
     <section class="section-bottom">
       <div class="section-bottom__image">
@@ -672,7 +675,7 @@ margin: 0 auto;
     width: 150px;
 }
 
-.section-numbers {
+/*.section-numbers {
     display: flex;
     justify-content: center;
     background-color: #e8eff6;
@@ -695,7 +698,7 @@ margin: 0 auto;
     font-size: 2rem;
     font-weight: 700;
     opacity: 0.8;
-}
+}*/
 
 .section-bottom {
     padding-top: 100px;
