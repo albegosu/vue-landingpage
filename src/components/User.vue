@@ -5,7 +5,7 @@
       <!--Iconos Estrellas-->
 
       <div class="section-user__rick">
-        <img class="section-user__rick__img" src="src/assets/iconoEstrellasFix.png" alt="icono valoraciones" />
+        <img class="section-user__rick__img" src="/src/assets/iconoEstrellasFix.png" alt="icono valoraciones" />
         <p class="section-user__rick__p">
           I love using Sync for my personal development needs. It meets all my
           requirements and it actually helps a lot with focusing skills.
@@ -14,7 +14,7 @@
       </div>
 
       <div class="section-user__lynda">
-        <img class="section-user__lynda__img class=" src="src/assets/iconoEstrellasFix.png" alt="icono valoraciones" />
+        <img class="section-user__lynda__img class=" src="/src/assets/iconoEstrellasFix.png" alt="icono valoraciones" />
         <p class="section-user__lynda__p">
           After trying out a large number of personal coaching apps I decided
           to give Sync a try and what a wonderful surprise it was.
@@ -23,7 +23,7 @@
       </div>
 
       <div class="section-user__jay">
-        <img class="section-user__jay__img" src="src/assets/iconoEstrellasFix.png" alt="icono valoraciones" />
+        <img class="section-user__jay__img" src="/src/assets/iconoEstrellasFix.png" alt="icono valoraciones" />
         <p class="section-user__jay__p">
           Never dreamed I could learn so fast how to focus on my personal
           goals and improve my life to levels I never thought possible.
@@ -32,11 +32,11 @@
       </div>
 
       <div class="section-user__customers">
-        <img class="section-user__customers__img" src="src/assets/customer-logo-1.png" alt="customer logo 1" />
-        <img class="section-user__customers__img" src="src/assets/customer-logo-2.png" alt="customer logo 2" />
-        <img class="section-user__customers__img" src="src/assets/customer-logo-3.png" alt="customer logo 3" />
-        <img class="section-user__customers__img" src="src/assets/customer-logo-4.png" alt="customer logo 4" />
-        <img class="section-user__customers__img" src="src/assets/customer-logo-5.png" alt="customer logo 5" />
+        <img class="section-user__customers__img" src="/src/assets/customer-logo-1.png" alt="customer logo 1" />
+        <img class="section-user__customers__img" src="/src/assets/customer-logo-2.png" alt="customer logo 2" />
+        <img class="section-user__customers__img" src="/src/assets/customer-logo-3.png" alt="customer logo 3" />
+        <img class="section-user__customers__img" src="/src/assets/customer-logo-4.png" alt="customer logo 4" />
+        <img class="section-user__customers__img" src="/src/assets/customer-logo-5.png" alt="customer logo 5" />
       </div>
 
       <div class="section-user__frank">
@@ -49,7 +49,7 @@
       </div>
 
       <div class="section-user__rita">
-        <img class="section-user__rita__img" src="src/assets/iconoEstrellasFix.png" alt="icono valoraciones" />
+        <img class="section-user__rita__img" src="/src/assets/iconoEstrellasFix.png" alt="icono valoraciones" />
         <p class="section-user__rita__p">
           If you have great goals but can't figure out a way to keep focused
           then you should definitely give Sync a try and see the results
@@ -58,7 +58,7 @@
       </div>
 
       <div class="section-user__jones">
-        <img class="section-user__jones__img" src="src/assets/iconoEstrellasFix.png" alt="icono valoraciones" />
+        <img class="section-user__jones__img" src="/src/assets/iconoEstrellasFix.png" alt="icono valoraciones" />
         <p class="section-user__jones__p">
           I've been looking for a great organizer app for such a long time but
           now I am really happy that I found Sync. It's been working great

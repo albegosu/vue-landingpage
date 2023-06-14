@@ -1,18 +1,20 @@
-<template>
-  <section>
-      <div class="mobile-landing">
-        <h1 class="mobile-landing__title">Mobile App Landing Page</h1>
-        <p class="mobile-landing__p">
-          Start focusing on your goals and get more things done with Sync
-          mobile application. It's the first app to harness the power of
-          social connections to help stay focused and get organized
-        </p>
+<template>     
+    <section class="section-bottom">
+      <div class="section-bottom__image">
+        <img id="phone-image-bottom" src="/src/assets/download-iphone.png" alt="imagen fondo 4" />
       </div>
+      
+      <div class="section-bottom__container">
+      <p class="section-bottom__container__p">
+        Do you feel like you're wasting time with small stuff instead of
+        working towards your goals? Start using Sync to organize your time and
+        get a grip on your personal development
+      </p>
 
       <div class="button-download">
         <button class="button-download__button">
           <svg class="button-download__icon" xmlns="http://www.w3.org/2000/svg"
-             width="44" height="44" viewBox="0 0 24 24"
+           width="44" height="44" viewBox="0 0 24 24"
             stroke-width="1.5" stroke="none" fill="#ffff" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path
@@ -23,7 +25,7 @@
         </button>
         <button class="button-download__button">
           <svg class="button-download__icon" xmlns="http://www.w3.org/2000/svg"
-             width="44" height="44" viewBox="0 0 24 24"
+           width="44" height="44" viewBox="0 0 24 24"
             stroke-width="1.5" stroke="#ff556e" fill="#fff" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path
@@ -34,40 +36,35 @@
           <p>Download</p>
         </button>
       </div>
-    </section>
-
-    <div class="container-image-phone">
-      <img class="phone-image" src="src/assets/header-iphone.png" alt="iphone header" />
     </div>
+    </section>
 </template>
 
 <style scoped>
-.mobile-landing {
+.section-bottom {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-bottom__image {
+    display: flex;
     justify-content: center;
+}
+
+#phone-image-bottom {
+    width: 968px;
+    height: 580px;
+    padding-top: 100px;
+}
+
+.section-bottom__container {
     text-align: center;
 }
 
-h1 {
-    text-align: center;
-    font-size: 64px;
-    opacity: 0.8;
+.section-bottom__container__p {
+    width: 50%;
+    margin: 0 auto;
 }
-
-.mobile-landing__p {
-    width: 60%;
-    text-align: center;
-    font-weight: 550;
-    opacity: 0.6;
-    justify-content: center;
-    margin: 0px auto 2rem auto ;
-}
-
-.button-download__icon {
-    width: 22px;
-    height: 22px;
-}
-
-
 .button-download button {
     display: flex;
     margin: 5px;
@@ -87,6 +84,7 @@ h1 {
     color: #ff556e;
 }
 
+Correccion icono apple boton download
 .button-download:hover .button-download__icon {
     stroke: #ff556e;
 }
@@ -102,18 +100,4 @@ h1 {
     margin-left: 5px;
 }
 
-.container-image-phone {
-    display: flex;
-    justify-content: center;
-}
-
-.phone-image {
-    width: 929px;
-    margin-top: 50px;
-}
-
-.phone-image:hover {
-    transform: scale(1.2);
-    transition: all 0.2s;
-}
 </style>
