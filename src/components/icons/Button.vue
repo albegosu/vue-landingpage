@@ -14,7 +14,7 @@
     width: 22px;
     height: 22px;
 }
-.button-download__button {
+.button-download button {
     display: flex;
     margin: 5px;
     padding: 5px 20px;
@@ -26,13 +26,18 @@
     border-radius: 28px;
     background-color: #ff556e;
 }
-.button-download__button:hover {
+.button-download button:hover {
     background-color: #fff;
     border: 2px solid #ff556e;
     color: #ff556e;
 }
 .button-download:hover .button-download__icon {
     stroke: #ff556e;
+}
+.button-download {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 .button-download__button p {
     margin: auto;

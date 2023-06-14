@@ -1,11 +1,11 @@
 <script setup>
   import ImagePhoneComponent from "../components/ImagePhoneComponent.vue"
   import ContainerMiddle from "../components/ContainerMiddle.vue"
-  import Organize from "../components/Organize.vue"
+  import Organize from "../components/OrganizeComponent.vue"
   import CalendarComponent from "../components/CalendarComponent.vue"
-  import User from "../components/User.vue"
-  import Numbers from "../components/Numbers.vue"
-  import ButtonComponent from "../components/ButtonComponent.vue"
+  import User from "../components/UserComponent.vue"
+  import Numbers from "../components/NumbersComponent.vue"
+  import ButtonComponent from "../components/BottomComponent.vue"
 </script>
 
 <template>

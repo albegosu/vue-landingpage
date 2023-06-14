@@ -21,4 +21,10 @@ body{
     font-family: 'Open sans', sans-serif;
     display: block;
 }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
 </style>
