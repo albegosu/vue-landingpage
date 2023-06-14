@@ -1,5 +1,6 @@
 <script setup>
   import { RouterLink, RouterView } from "vue-router";
+  import Button from "../components/ButtonComponent.vue";
 </script>
 
 <template>
@@ -23,7 +24,11 @@
           </div>
         </li>
         <li>
-          <RouterLink to="/login"><button class="button-download__top">Login</button></RouterLink>
+          <RouterLink to="/login">
+            <Button class="button-download__button">
+              <template #nameBtn>Login</template>
+            </Button>
+          </RouterLink>
         </li>
       </ul>
     </nav>
@@ -33,7 +38,7 @@
 
 <style scoped>
 header {
-  display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 3rem;
@@ -76,15 +81,23 @@ li:nth-child(3){
   }
   li:nth-child(1) {
   display: block;
-}
+  }
 
-li:nth-child(2){
-  display: block;
-}
+  li:nth-child(2){
+    display: block;
+  }
 
-li:nth-child(3){
-  display: block;
+  li:nth-child(3){
+    display: block;
+  }
 }
+.button-download__button {
+  color: #ff556e !important;
+  background-color: white !important;
+}
+.button-download__button:hover {
+  background-color: #ff556e !important;
+  color: white !important;;
 }
 .top-menu li {
     list-style: none;
@@ -97,28 +110,10 @@ a {
     text-decoration: none;
     color: #000000;
 }
-.button-download__top {
-    -webkit-border-radius: 28px;
-    -moz-border-radius: 28px;
-    border-radius: 1.75rem;
-    border: 2px solid #ff556e;
-    padding: 5px 20px;
-    color: var(--button-color);
-    text-transform: uppercase;
-    font-size: 0.875rem;
-    font-family: 'Open sans', sans-serif;
-    background-color: #fff;
-    font-weight: 700;
-}
-.button-download__top:hover {
-    background-color: #ff556e;
-    color: white;
-    transition: all 0.4s;
-}
 .top-menu {
     display: flex;
     justify-content: flex-end;
-    align-items: baseline;
+    align-items: center;
 }
 .dropdown {
     display: inline-block;

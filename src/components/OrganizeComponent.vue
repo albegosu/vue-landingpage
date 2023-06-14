@@ -1,5 +1,9 @@
+<script setup>
+    import Button from '../components/ButtonComponent.vue';
+</script>
+
 <template>
-<section class="section-organize">
+  <section class="section-organize">
       <div class="section-organize__img">
         <img id="organize-image" src="/src/assets/description-1-app.png" alt="imagen fondo 1" />
       </div>
@@ -16,7 +20,9 @@
           <li>Begin monitoring your day to day routine with Sync app</li>
           <li>See the improved results in no more than a couple of weeks</li>
         </ul>
-        <button class="lightbox-button">LIGHTBOX</button>
+        <Button class="button-download__button">
+          <template #nameBtn>LIGHTBOX</template>
+        </Button>
       </div>
     </section>
 </template>
@@ -57,22 +63,5 @@
 #organize-title {
     font-size: 40px;
     margin-bottom: 1.5rem;
-}
-
-.lightbox-button {
-    background-color: #ff556e;
-    border-radius: 28px;
-    border: 2px solid #ff556e;
-    width: 150px;
-    height: 40px;
-    font-weight: 700;
-    color: #fff;
-}
-
-.lightbox-button:hover {
-    background-color: #fff;
-    color: #ff556e;
-    border: 2px solid #ff556e;
-    transition: all 0.2s;
 }
 </style>

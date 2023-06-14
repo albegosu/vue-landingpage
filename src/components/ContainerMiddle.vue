@@ -30,6 +30,11 @@
 </template>
 
 <style scoped>
+.container-icons-middle {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .container-icons-middle__img {
     align-self: center;
     width: 65px;
@@ -37,10 +42,7 @@
     margin: 0 auto;
     padding-top: 30px;
 }
-.container-icons-middle {
-    display: flex;
-    justify-content: space-evenly;
-}
+
 .container-icons-middle__icon {
     display: flex;
     width: 120px;
@@ -50,9 +52,9 @@
     border-radius: 50%;
 
 }
-.icons-middle__text {
-    font-weight: 700;
-    text-align: center;
+
+.container-middle {
     margin-top: 50px;
+    margin-bottom: 200px;
 }
 </style>

@@ -1,3 +1,7 @@
+<script setup>
+  import Button from '../components/ButtonComponent.vue';
+</script>
+
 <template>
      <section class="section-calendar">
       <div class="section-calendar__left">
@@ -64,9 +68,13 @@
                 </ul>
             </div>
 
-            <div class="container-buttons__privacy">
-              <button class="button-terms">TERMS</button>
-              <button class="button-privacy">PRIVACY</button>
+            <div class="container-buttons">
+              <Button class="button-download__button">
+                <template #nameBtn>TERMS</template>
+              </Button>
+              <Button class="button-download__button button-privacy">
+                <template #nameBtn>PRIVACY</template>
+              </Button>
             </div>
           </div>
         </div>
@@ -183,17 +191,6 @@
     margin-left: 10px;
 }
 
-.button-terms {
-    background-color: #ff556e;
-    color: #fff;
-    border-radius: 28px;
-    border: 2px solid #ff556e;
-    font-size: 14px;
-    font-weight: 700;
-    width: 100px;
-    height: 50px;
-}
-
 .button-privacy {
     background-color: #e8eff6;
     border: 2px solid #000;
@@ -204,8 +201,9 @@
     font-weight: 700;
 }
 
-.container-buttons__privacy {
+.container-buttons {
     margin-bottom: 50px;
+    display: flex;
 }
 
 .button-terms:hover {

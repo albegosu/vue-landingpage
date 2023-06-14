@@ -2,16 +2,18 @@
   import Button from '../components/ButtonComponent.vue';
 </script>
 
-<template>
-  <section>
-      <div class="mobile-landing">
-        <h1 class="mobile-landing__title">Mobile App Landing Page</h1>
-        <p class="mobile-landing__p">
-          Start focusing on your goals and get more things done with Sync
-          mobile application. It's the first app to harness the power of
-          social connections to help stay focused and get organized
-        </p>
+<template>     
+    <section class="section-bottom">
+      <div class="section-bottom__image">
+        <img id="phone-image-bottom" src="/src/assets/download-iphone.png" alt="imagen fondo 4" />
       </div>
+      
+      <div class="section-bottom__container">
+      <p class="section-bottom__container__p">
+        Do you feel like you're wasting time with small stuff instead of
+        working towards your goals? Start using Sync to organize your time and
+        get a grip on your personal development
+      </p>
 
       <div class="button-download">
         <Button>
@@ -46,51 +48,44 @@
           </template>
         </Button>
       </div>
-    </section>
-
-    <div class="container-image-phone">
-      <img class="phone-image" src="/src/assets/header-iphone.png" alt="iphone header" />
     </div>
+    </section>
 </template>
 
 <style scoped>
+.section-bottom {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-bottom__image {
+    display: flex;
+    justify-content: center;
+}
+
+#phone-image-bottom {
+    width: 968px;
+    height: 580px;
+    padding-top: 100px;
+}
+
+.section-bottom__container {
+    text-align: center;
+}
+
+.section-bottom__container__p {
+    width: 50%;
+    margin: 0 auto;
+}
 .button-download {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
-.mobile-landing {
-    justify-content: center;
-    text-align: center;
+
+.button-download__button p {
+    margin: auto;
+    margin-left: 5px;
 }
 
-h1 {
-    text-align: center;
-    font-size: 64px;
-    opacity: 0.8;
-}
-
-.mobile-landing__p {
-    width: 60%;
-    text-align: center;
-    font-weight: 550;
-    opacity: 0.6;
-    justify-content: center;
-    margin: 0px auto 2rem auto ;
-}
-
-.container-image-phone {
-    display: flex;
-    justify-content: center;
-}
-
-.phone-image {
-    width: 929px;
-    margin-top: 50px;
-}
-
-.phone-image:hover {
-    transform: scale(1.2);
-    transition: all 0.2s;
-}
 </style>
