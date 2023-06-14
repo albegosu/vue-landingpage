@@ -114,7 +114,7 @@
 }
 
 .checkmark {
-    list-style-image: url(src/assets/checkmark.png);
+    list-style-image: url(/src/assets/checkmark.png);
 }
 
 .section-calendar__container {

@@ -1,7 +1,7 @@
 <template>     
     <section class="section-bottom">
       <div class="section-bottom__image">
-        <img id="phone-image-bottom" src="src/assets/download-iphone.png" alt="imagen fondo 4" />
+        <img id="phone-image-bottom" src="/src/assets/download-iphone.png" alt="imagen fondo 4" />
       </div>
       
       <div class="section-bottom__container">

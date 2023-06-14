@@ -1,7 +1,7 @@
 <template>
 <section class="section-organize">
       <div class="section-organize__img">
-        <img id="organize-image" src="src/assets/description-1-app.png" alt="imagen fondo 1" />
+        <img id="organize-image" src="/src/assets/description-1-app.png" alt="imagen fondo 1" />
       </div>
       <div class="section-organize__content">
         <h2 id="organize-title">Organize Your Time And Start Getting Results</h2>

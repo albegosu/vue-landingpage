@@ -49,7 +49,7 @@
     </section>
 
     <div class="container-image-phone">
-      <img class="phone-image" src="src/assets/header-iphone.png" alt="iphone header" />
+      <img class="phone-image" src="/src/assets/header-iphone.png" alt="iphone header" />
     </div>
 </template>
 

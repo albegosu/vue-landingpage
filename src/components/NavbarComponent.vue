@@ -1,29 +1,34 @@
+<script setup>
+  import { RouterLink, RouterView } from "vue-router";
+</script>
+
 <template>
   <header>
     <div>
-      <a href="#">
-        <img src="src/assets/logo.svg" id="top-icon" alt="Logo">
-      </a>
+      <RouterLink to="/">
+        <img src="/src/assets/logo.svg" id="top-icon" alt="Logo">
+      </RouterLink>
     </div>
     <nav>
       <ul class="top-menu">
-        <li><a href="#">Description</a></li>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Screens</a></li>
+        <li><RouterLink to="">Description</RouterLink></li>
+        <li><RouterLink to="">Features</RouterLink></li>
+        <li><RouterLink to="">Screens</RouterLink></li>
         <li class="dropdown">
-          <a href="#">Extra</a>
+          <RouterLink to="">Extra</RouterLink>
           <div class="dropdown-content">
-            <a href="#">Article Details</a>
-            <a href="#">Terms Conditions</a>
-            <a href="#">Privacy Policy</a>
+            <RouterLink to="">Article Details</RouterLink>
+            <RouterLink to="">Terms Conditions</RouterLink>
+            <RouterLink to="">Privacy Policy</RouterLink>
           </div>
         </li>
         <li>
-          <a href="https://factoriaf5.org/"><button class="button-download__top">Download</button></a>
+          <RouterLink to="/login"><button class="button-download__top">Login</button></RouterLink>
         </li>
       </ul>
     </nav>
   </header>
+  <RouterView />
 </template>
 
 <style scoped>
