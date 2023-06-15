@@ -56,11 +56,34 @@
 .container-middle {
     margin-top: 50px;
     margin-bottom: 200px;
+    display: flex;
 }
 
 .icons-middle__text {
   align-self: center;
   margin-top: 27%;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container-icons-middle {
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .container-icons-middle__icon {
+    width: auto;
+    height: auto;
+  }
+
+  .container-icons-middle__img {
+    width: 45px;
+    height: 45px;
+    padding-top: 20px;
+  }
+
+  .icons-middle__text {
+    margin-top: 20%;
+  }
 }
 </style>
