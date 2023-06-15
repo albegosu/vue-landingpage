@@ -4,8 +4,8 @@
 
 <template>
      <section class="section-calendar">
-      <div class="section-calendar__left">
-        
+      <div>
+        <div class="section-calendar__left">
           <div class="section-calendar__container">
             <button class="section-calendar__button button-schedule">
               <svg xmlns="http://www.w3.org/2000/svg"
@@ -67,19 +67,19 @@
 
                 </ul>
             </div>
-
-            <div class="container-buttons">
-              <Button class="button-download__button">
-                <template #nameBtn>TERMS</template>
-              </Button>
-              <Button class="button-download__button button-privacy">
-                <template #nameBtn>PRIVACY</template>
-              </Button>
-            </div>
           </div>
         </div>
-        
-        <img id="calendar-image" src="/src/assets/description-2-app.png" alt="imagen fondo 2" />
+        <div class="container-buttons">
+        <Button class="container-buttons__terms"> 
+          <template #nameBtn>TERMS</template>
+        </Button>
+        <Button class="container-buttons__privacy">
+          <template #nameBtn>PRIVACY</template>
+        </Button>
+      </div>  
+      </div>
+      
+      <img id="calendar-image" src="/src/assets/description-2-app.png" alt="imagen fondo 2" />
     </section>
 </template>
 
@@ -90,47 +90,39 @@
     flex-direction: column;
     justify-content: center;
     background-color: #e8eff6;
-    padding: 128px 0;
+    padding: 5rem 5rem;
 }
-
+.checkmark {
+    list-style-image: url(/src/assets/checkmark.png);
+}
 #calendar-image {
     order: 1;
 }
-
 @media (min-width: 800px) {
     .section-calendar {
         display: flex;
         flex-direction: row;
         justify-content: center;
         background-color: #e8eff6;
-        padding: 128px 0;
     }
     #calendar-image {
     order: 2;
     }    
 }
-
 .section-calendar__left {
     display: flex;
     flex-direction: column;
     width: 570px;
-    height: 586px;
     font-size: 16px;
     padding: 96px 40px 0 0 ;
     opacity: 0.6;
     order: 2;
 }
-
-.checkmark {
-    list-style-image: url(/src/assets/checkmark.png);
-}
-
 .section-calendar__container {
     display: flex;
     gap: 10px;
     padding: 10px;
 }
-
 .section-calendar__button {
     display: flex;
     width: 150px;
@@ -141,16 +133,13 @@
     align-items: center;
     padding: 0 5px;  
 }
-
 .section-calendar__button:hover {
     background-color: #9a67e7;
     color: #fff;
 }
-
 .section-calendar__button:hover svg {
     stroke: #fff;
 }
-
 .section-calendar__image {
     width: 22px;
     height: 22px;
@@ -160,62 +149,44 @@
     padding: 0 5px;
     font-weight: 700;
 }
-
-.button-schedule {
-    background-color: #9a67e7;
-    color: #fff;
-}
-
-.button-schedule svg {
-    stroke: #fff;
-}
-
 #calendar-image {
     width: 497px;
     height: 586px;
     position: relative;
 }
-
-.check-icon {
-    width: 22px;
-    height: 22px;
+/* BUTTON CALENDAR */
+.button-schedule {
+    background-color: #9a67e7;
+    color: #fff;
 }
-
-.section-calendar__checklist{
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
+.button-schedule svg {
+    stroke: #fff;
 }
-
-.section-calendar__checklist p {
-    margin-left: 10px;
-}
-
-.button-privacy {
-    background-color: #e8eff6;
-    border: 2px solid #000;
-    border-radius: 28px;
-    width: 100px;
-    height: 50px;
-    font-size: 14px;
-    font-weight: 700;
-}
-
+/* BUTTONS */
 .container-buttons {
     margin-bottom: 50px;
+    margin-left: 50px;
     display: flex;
 }
-
-.button-terms:hover {
-    background-color: #ebe7fa;
-    border: 2px solid #ff556e;
-    color: #ff556e;
-    transition: all 0.2s;
+.button-download__button {
+  padding: 1rem 2rem;  
 }
-
-.button-privacy:hover {
+.button-download__button p {
+  padding: 0.5rem;
+  margin: 0;
+}
+.container-buttons__terms:hover {
+  background-color: #e8eff6;
+}
+.container-buttons__privacy {
+    background-color: #e8eff6;
+    border: 2px solid #000;
+    color: black;
+}
+.container-buttons__privacy:hover {
     background-color: #000000;
     color: #ebe7fa;
     transition: all 0.2s;
+    border: 2px solid white;
 }
 </style>
