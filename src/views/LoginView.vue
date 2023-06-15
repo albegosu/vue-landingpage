@@ -8,7 +8,7 @@
   </main>
 </template>
 
-<style>
+<style scoped>
   footer {
     position: absolute;
     bottom: 1rem;
