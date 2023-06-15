@@ -1,9 +1,6 @@
 <template>
 <section class="section-user">
       <h2>User Testimonials</h2>
-
-      <!--Iconos Estrellas-->
-
       <div class="section-user__rick">
         <img class="section-user__rick__img" src="/src/assets/iconoEstrellasFix.png" alt="icono valoraciones" />
         <p class="section-user__rick__p">
