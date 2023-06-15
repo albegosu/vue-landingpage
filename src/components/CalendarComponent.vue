@@ -168,13 +168,6 @@
     margin-left: 50px;
     display: flex;
 }
-.button-download__button {
-  padding: 1rem 2rem;  
-}
-.button-download__button p {
-  padding: 0.5rem;
-  margin: 0;
-}
 .container-buttons__terms:hover {
   background-color: #e8eff6;
 }
