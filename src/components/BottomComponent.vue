@@ -7,7 +7,6 @@
       <div class="section-bottom__image">
         <img id="phone-image-bottom" src="/src/assets/download-iphone.png" alt="imagen fondo 4" />
       </div>
-      
       <div class="section-bottom__container">
       <p class="section-bottom__container__p">
         Do you feel like you're wasting time with small stuff instead of
@@ -57,22 +56,18 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
 .section-bottom__image {
     display: flex;
     justify-content: center;
 }
-
 #phone-image-bottom {
     width: 968px;
     height: 580px;
     padding-top: 100px;
 }
-
 .section-bottom__container {
     text-align: center;
 }
-
 .section-bottom__container__p {
     width: 50%;
     margin: 0 auto;
@@ -82,10 +77,4 @@
     justify-content: center;
     margin-top: 50px;
 }
-
-.button-download__button p {
-    margin: auto;
-    margin-left: 5px;
-}
-
 </style>
