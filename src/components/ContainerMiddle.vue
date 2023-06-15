@@ -3,27 +3,27 @@
       <div class="container-icons-middle">
         <div class="container-icons-middle__icon">
           <img class="container-icons-middle__img" src="/src/assets/usersIconFix.png" alt="Users icon" />
-          <p class="icons-middle__text">Identify Goals</p>
+          <p class="icons-middle__text"><strong>Identify Goals</strong></p>
         </div>
 
         <div class="container-icons-middle__icon">
           <img class="container-icons-middle__img" src="/src/assets/keyIconFix.png" alt="Keys icon" />
-          <p class="icons-middle__text">Situation Analysis</p>
+          <p class="icons-middle__text"><strong>Situation Analysis</strong></p>
         </div>
 
         <div class="container-icons-middle__icon">
           <img class="container-icons-middle__img" src="/src/assets/gearIconFix.png" alt="gear icon" />
-          <p class="icons-middle__text">Tasks Settings</p>
+          <p class="icons-middle__text"><strong>Tasks Settings</strong></p>
         </div>
 
         <div class="container-icons-middle__icon">
           <img class="container-icons-middle__img" src="/src/assets/messageIconFix.png" alt="message icon" />
-          <p class="icons-middle__text">Social Interaction</p>
+          <p class="icons-middle__text"><strong>Social Interaction</strong></p>
         </div>
 
         <div class="container-icons-middle__icon">
           <img class="container-icons-middle__img" src="/src/assets/rocketIconFix.png" alt="rocket icon" />
-          <p class="icons-middle__text">Get Things Done</p>
+          <p class="icons-middle__text"><strong>Get Things Done</strong></p>
         </div>
       </div>
     </section>
@@ -32,7 +32,7 @@
 <style scoped>
 .container-icons-middle {
     display: flex;
-    justify-content: space-evenly;
+    gap: 100px;
 }
 
 .container-icons-middle__img {
@@ -56,5 +56,11 @@
 .container-middle {
     margin-top: 50px;
     margin-bottom: 200px;
+}
+
+.icons-middle__text {
+  align-self: center;
+  margin-top: 27%;
+  text-align: center;
 }
 </style>
