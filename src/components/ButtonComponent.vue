@@ -10,10 +10,7 @@
 </template>
 
 <style scoped>
-.button-download__icon {
-    width: 22px;
-    height: 22px;
-}
+
 .button-download__button {
     display: flex;
     margin: 5px;
@@ -30,9 +27,6 @@
     background-color: #fff;
     border: 2px solid #ff556e;
     color: #ff556e;
-}
-.button-download:hover .button-download__icon {
-    stroke: #ff556e;
 }
 .button-download__button p {
     margin: auto;
