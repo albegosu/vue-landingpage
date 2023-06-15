@@ -63,5 +63,21 @@
 #organize-title {
     font-size: 40px;
     margin-bottom: 1.5rem;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .section-organize {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .section-organize__img img {
+        width: 100%;
+        height: auto;
+        max-height: auto;
+    }
 }
 </style>
