@@ -37,13 +37,6 @@
 </template>
 
 <style scoped>
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 3rem;
-    gap: auto;
-}
 nav {
   display: flex;
   flex-direction: column;
@@ -70,7 +63,6 @@ li:nth-child(3){
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 3rem;
     gap: auto;
   }
   #top-icon {
