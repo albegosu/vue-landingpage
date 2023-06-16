@@ -66,6 +66,10 @@
 </template>
 
 <style>
+h2 {
+  text-align: center;
+}
+
 .section-user {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
